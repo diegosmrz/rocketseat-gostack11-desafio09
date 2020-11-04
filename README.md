@@ -1,11 +1,11 @@
 <h1 align="center">
-  RocketSeat - Desafio 09: Relacionamentos com banco de dados no Node.js 
+  RocketSeat - Desafio 09: Relacionamentos de Banco de Dados com Node.js
 </h1>
 
 <p align="center">
-  
+
   <img alt="GitHub language count" src="https://img.shields.io/github/last-commit/diegomrz/rocketseat-gostack11-desafio09">
-  
+
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegomrz/rocketseat-gostack11-desafio09">
 
   <a href="https://www.linkedin.com/in/diegomrz/">
@@ -15,7 +15,7 @@
   <a href="https://skylab.rocketseat.com.br/">
     <img alt="Skylab RocketSeat" src="https://img.shields.io/badge/skylab-Rocketseat-blueviolet">
   </a>
-  
+
 </p>
 
 ## GoStack da RocketSeat
@@ -25,8 +25,8 @@ O GoStack é um Treinamento imersivo nas tecnologias mais modernas de desenvolvi
 Nesse desafio, você vai estar criando uma nova aplicação para aprender novas coisas e treinar o que você aprendeu até agora no Node.js junto ao TypeScript, incluindo o uso de banco de dados com o TypeORM, e relacionamentos ManyToMany!
 Essa será uma aplicação que deve permitir a criação de clientes, produtos e pedidos, onde o cliente pode gerar novos pedidos de compra de certos produtos, como um pequeno e-commerce.
 
-Rotas da aplicação
 
+### Rotas da aplicação
 Agora que você já está com o template clonado e pronto para continuar, você deve verificar os arquivos da pasta src e completar onde não possui código com o código para atingir os objetivos de cada rota.
 
 - POST /customers: A rota deve receber name e email dentro do corpo da requisição, sendo o name o nome do cliente a ser cadastrado. Ao cadastrar um novo cliente, ele deve ser armazenado dentro do seu banco de dados e deve ser retornado o cliente criado. Ao cadastrar no banco de dados, na tabela customers deverá possuir os campos name, email, created_at, updated_at.
