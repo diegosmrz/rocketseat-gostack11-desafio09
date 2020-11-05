@@ -18,8 +18,6 @@
 
 </p>
 
-# Refazendo o modulo de arquitetura.
-
 ## GoStack da RocketSeat
 O GoStack é um Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile.
 
