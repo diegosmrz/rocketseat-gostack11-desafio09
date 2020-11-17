@@ -13,7 +13,7 @@ export default class CreateCustomers1609535327943
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            default: 'uuid_generate_v4',
           },
           {
             name: 'name',
